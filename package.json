@@ -1,0 +1,28 @@
+{
+  "name": "local-chat",
+  "version": "1.0.0",
+  "description": "Local Area Network Connected Chat Application",
+  "main": "server.js",
+  "scripts": {
+    "run": "nodemon server.js",
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Chat",
+    "Application",
+    "Node",
+    "JS",
+    "Based",
+    "for",
+    "LAN"
+  ],
+  "author": "Kashif Raza",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
